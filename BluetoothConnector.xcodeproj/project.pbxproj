@@ -13,6 +13,7 @@
 		C8FD48891B8C409600FE1D3D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8FD48881B8C409600FE1D3D /* Images.xcassets */; };
 		C8FD488C1B8C409600FE1D3D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C8FD488A1B8C409600FE1D3D /* LaunchScreen.xib */; };
 		C8FD48981B8C409600FE1D3D /* BluetoothConnectorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8FD48971B8C409600FE1D3D /* BluetoothConnectorTests.swift */; };
+		C8FD48A21B8C46D400FE1D3D /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8FD48A11B8C46D400FE1D3D /* CoreBluetooth.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		C8FD48911B8C409600FE1D3D /* BluetoothConnectorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BluetoothConnectorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8FD48961B8C409600FE1D3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C8FD48971B8C409600FE1D3D /* BluetoothConnectorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothConnectorTests.swift; sourceTree = "<group>"; };
+		C8FD48A11B8C46D400FE1D3D /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8FD48A21B8C46D400FE1D3D /* CoreBluetooth.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +62,7 @@
 		C8FD48731B8C409600FE1D3D = {
 			isa = PBXGroup;
 			children = (
+				C8FD48A11B8C46D400FE1D3D /* CoreBluetooth.framework */,
 				C8FD487E1B8C409600FE1D3D /* BluetoothConnector */,
 				C8FD48941B8C409600FE1D3D /* BluetoothConnectorTests */,
 				C8FD487D1B8C409600FE1D3D /* Products */,
@@ -411,6 +415,7 @@
 				C8FD489D1B8C409600FE1D3D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C8FD489E1B8C409600FE1D3D /* Build configuration list for PBXNativeTarget "BluetoothConnectorTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +424,7 @@
 				C8FD48A01B8C409600FE1D3D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
